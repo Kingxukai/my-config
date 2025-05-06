@@ -1,0 +1,7 @@
+cursor-color = #F4FC4D
+cursor-style = block
+cursor-style-blink = true
+font-size = 14
+clipboard-read = allow
+clipboard-write = allow
+
