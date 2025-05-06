@@ -4,9 +4,6 @@ alias top='htop -t'
 # vim
 export EDITOR='vim'
 
-# glow
-alias glow='glow -l -w 160 -p'
-
 # lla
 alias lsa="lla"
 alias ls="lla --no-dotfiles"
