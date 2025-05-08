@@ -11,6 +11,9 @@ alias ls="lla --no-dotfiles"
 # trash-cli
 alias rm='trash-put'
 
+# async
+alias async='asyncy'
+
 # yazi
 function yz() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
