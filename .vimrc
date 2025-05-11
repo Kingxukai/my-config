@@ -162,3 +162,8 @@ map g7 :tabn 7<CR>
 map g8 :tabn 8<CR>
 map g9 :tabn 9<CR>
 map g0 :tablast<CR>
+
+" restore last position of file
+if has("autocmd")
+	    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
